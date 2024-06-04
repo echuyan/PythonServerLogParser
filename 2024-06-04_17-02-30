@@ -1,0 +1,79 @@
+{
+    "filename": "logs\\short.log",
+    "top_ips": {
+        "109.169.248.247": 2,
+        "46.72.177.4": 2,
+        "83.167.113.100": 2
+    },
+    "top_longest": [
+        {
+            "ip": "95.29.198.15",
+            "method": "POST",
+            "duration": 9865,
+            "date": "[12/Dec/2015:18:32:11 +0100]",
+            "url": "http://almhuette-raith.at/administrator/"
+        },
+        {
+            "ip": "83.167.113.100",
+            "method": "POST",
+            "duration": 8566,
+            "date": "[12/Dec/2015:18:31:25 +0100]",
+            "url": "http://almhuette-raith.at/administrator/"
+        },
+        {
+            "ip": "109.184.11.34",
+            "method": "GET",
+            "duration": 7890,
+            "date": "[12/Dec/2015:18:32:56 +0100]",
+            "url": "empty url"
+        }
+    ],
+    "total_stat": {
+        "GET": 9,
+        "POST": 8,
+        "PUT": 0,
+        "DELETE": 0,
+        "OPTIONS": 0,
+        "HEAD": 0
+    },
+    "total_requests": 17
+}{
+    "filename": "logs\\short1.log",
+    "top_ips": {
+        "79.142.95.122": 905,
+        "178.165.131.187": 67,
+        "212.95.7.217": 23
+    },
+    "top_longest": [
+        {
+            "ip": "79.142.95.122",
+            "method": "GET",
+            "duration": 9996,
+            "date": "[13/Feb/2016:09:19:19 +0100]",
+            "url": "empty url"
+        },
+        {
+            "ip": "79.142.95.122",
+            "method": "GET",
+            "duration": 9991,
+            "date": "[13/Feb/2016:00:59:14 +0100]",
+            "url": "empty url"
+        },
+        {
+            "ip": "79.142.95.122",
+            "method": "POST",
+            "duration": 9980,
+            "date": "[13/Feb/2016:06:21:19 +0100]",
+            "url": "empty url"
+        }
+    ],
+    "total_stat": {
+        "GET": 735,
+        "POST": 304,
+        "PUT": 0,
+        "DELETE": 0,
+        "OPTIONS": 0,
+        "HEAD": 1
+    },
+    "total_requests": 1040
+}
